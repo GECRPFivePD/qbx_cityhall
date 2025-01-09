@@ -15,12 +15,12 @@ return {
                 ['id'] = {
                     item = 'id_card',
                     label = 'ID',
-                    cost = 50,
+                    cost = 0,
                 },
                 ['driver'] = {
                     item = 'driver_license',
                     label = 'Driver License',
-                    cost = 50,
+                    cost = 0,
                 },
                 ['weapon'] = {
                     item = 'weaponlicense',
@@ -32,7 +32,7 @@ return {
     },
 
     employment = {
-        enabled = true, -- Set to false to disable the employment menu
+        enabled = false, -- Set to false to disable the employment menu
         jobs = {
             unemployed = 'Unemployed',
             trucker = 'Trucker',
