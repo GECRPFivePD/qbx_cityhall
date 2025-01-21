@@ -37,6 +37,11 @@ return {
                     label = 'Pilot License',
                     cost = 150000,
                 },
+                ['lawyer'] = {
+                    item = 'lawyerpass',
+                    label = 'Lawyer License',
+                    cost = 50000,
+                },
                 ['weapon'] = {
                     item = 'weaponlicense',
                     label = 'Weapon License',
