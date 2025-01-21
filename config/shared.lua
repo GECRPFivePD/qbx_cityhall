@@ -20,12 +20,27 @@ return {
                 ['driver'] = {
                     item = 'driver_license',
                     label = 'Driver License',
+                    cost = 2500,
+                },
+                ['boating'] = {
+                    item = 'driver_license',
+                    label = 'Driver License',
                     cost = 0,
+                },
+                ['helicopter'] = {
+                    item = 'driver_license',
+                    label = 'Driver License',
+                    cost = 85000,
+                },
+                ['pilot'] = {
+                    item = 'driver_license',
+                    label = 'Driver License',
+                    cost = 150000,
                 },
                 ['weapon'] = {
                     item = 'weaponlicense',
                     label = 'Weapon License',
-                    cost = 50,
+                    cost = 10000,
                 },
             },
         },
